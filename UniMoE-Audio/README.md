@@ -99,7 +99,7 @@ A `dac model` is also required to be downloaded in '/path/to/UniMoE-Audio/dac_mo
 ### 1.Make sure that all the weights are downloaded and the running environment is set correctly.
 
 ### 2.Run inference scripts:
-Before running the inference scripts, please change the `utils loading path` in the interface `UniMoE_Audio` to the path of your downloaded model.
+Before running the inference scripts, please change the `utils loading path` in the interface `UniMoE_Audio.py` to the path of your downloaded model.
 
 `inference.py`: Simplified inference function for quick single-task calls.
 ```bash
