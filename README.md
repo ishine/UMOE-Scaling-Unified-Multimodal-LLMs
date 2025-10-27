@@ -100,5 +100,13 @@ If you find Uni-MoE useful for your research and applications, please cite using
   pages={3424-3439},
   doi={10.1109/TPAMI.2025.3532688}}
 
+```
 
+```bibtex
+@article{liu2025unimoe,
+  title={UniMoE-Audio: Unified Speech and Music Generation with Dynamic-Capacity MoE},
+  author={Liu, Zhenyu and Li, Yunxin and Zhang, Xuanyu and Teng, Qixun and Jiang, Shenyuan and Chen, Xinyu and Shi, Haoyuan and Li, Jinchao and Wang, Qi and Chen, Haolan and others},
+  journal={arXiv preprint arXiv:2510.13344},
+  year={2025}
+}
 ```
