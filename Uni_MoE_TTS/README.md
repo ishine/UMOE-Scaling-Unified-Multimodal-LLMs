@@ -1,7 +1,7 @@
 <h1 align="center">Uni-MoE-TTS: Text to Speech model for Uni-MoE 2.0</h1>
 
 <div align="center" style="display: flex; justify-content: center; margin-top: 10px;">
-  <a href="https://huggingface.co/foggyforest/UniMoE-Audio-preview"><img src="https://img.shields.io/badge/🤗-Checkpoints-ED5A22.svg" style="margin-right: 5px;"></a>
+  <a href="https://huggingface.co/HIT-TMG/Uni-MoE-TTS-CKPT"><img src="https://img.shields.io/badge/🤗-Checkpoints-ED5A22.svg" style="margin-right: 5px;"></a>
 </div>
 
 
