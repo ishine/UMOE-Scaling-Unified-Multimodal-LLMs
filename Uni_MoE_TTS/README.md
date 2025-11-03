@@ -29,6 +29,7 @@ pip install -r requirements.txt
 
 ## UniMoE TTS Weights
 `All weights` should be downloaded to ensure use. After downloading all of them, organize the weights as follows in '/path/to/Uni-MoE-TTS-CKPT' folder:
+```bash
 Uni-MoE-TTS-CKPT
 ├── qwen_pp
 │   ├── config.json
@@ -50,6 +51,7 @@ Uni-MoE-TTS-CKPT
 │       └── speech_generator.bin
 ├── wavtokenizer_large_unify_600_24k.ckpt
 └── wavtokenizer_smalldata_frame40_3s_nq1_code4096_dim512_kmeans200_attn.yaml
+```
 
 All the weights can be downloaded from the following link: (link todo)
 Qwen2.5-0.5B-Instruct is needed if you need to train our model, download Qwen2.5-0.5B-Instruct from this link: (link todo)
