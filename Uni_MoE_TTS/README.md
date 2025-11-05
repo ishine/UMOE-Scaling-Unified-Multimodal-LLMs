@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="TTS_results.png" alt="Performance of UniMoE-Audio" style="max-width: 100%; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(123, 179, 255, 0.15);">
+  <img src="TTS_result.png" alt="Performance of Uni-MoE-TTS" style="max-width: 100%; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(123, 179, 255, 0.15);">
 </p>
 
 ## Installation
