@@ -53,8 +53,8 @@ Uni-MoE-TTS-CKPT
 └── wavtokenizer_smalldata_frame40_3s_nq1_code4096_dim512_kmeans200_attn.yaml
 ```
 
-All the weights can be downloaded from the following link: (link todo)
-Qwen2.5-0.5B-Instruct is needed if you need to train our model, download Qwen2.5-0.5B-Instruct from this link: (link todo)
+All the weights can be downloaded from the following link: [Uni-MoE-TTS](https://huggingface.co/HIT-TMG/Uni-MoE-TTS-CKPT)
+Qwen2.5-0.5B-Instruct is needed if you need to train our model, download Qwen2.5-0.5B-Instruct from this link: [Qwen2.5-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-0.5B)
 
 ## How to train 
 
