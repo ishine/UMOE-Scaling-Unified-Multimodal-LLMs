@@ -13,6 +13,12 @@
   <img src="TTS_result.png" alt="Performance of Uni-MoE-TTS" style="max-width: 100%; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(123, 179, 255, 0.15);">
 </p>
 
+<p align="center">
+    <video src="https://github.com/user-attachments/assets/914e31d8-bcb5-434b-9df6-47756ba79905" width="100%" style="margin: 0; padding: 0;" controls>
+      抱歉，您的浏览器不支持内嵌视频。
+    </video>
+</p>
+
 ## Installation
 The following instructions are for Linux installation.
 
