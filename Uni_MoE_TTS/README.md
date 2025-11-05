@@ -9,6 +9,9 @@
     <strong>Uni-MoE-TTS</strong> is the audio output module of the Uni-MoE 2.0 version. It adopts a multi-layer Transformers architecture with mixture of experts(from text tokens to audio tokens) and an innovative context-aware & long-audio chunking synthesis mechanism, enabling high-quality long-audio synthesis. Currently, it supports three distinct timbres and two languages (Chinese and English), while the function of text-controlled speech style is still in the experimental stage.
 </p>
 
+<p align="center">
+  <img src="TTS_results.png" alt="Performance of UniMoE-Audio" style="max-width: 100%; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(123, 179, 255, 0.15);">
+</p>
 
 ## Installation
 The following instructions are for Linux installation.
