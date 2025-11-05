@@ -15,7 +15,7 @@ The following instructions are for Linux installation.
 
 ### 1. Clone this repository and navigate to the UniMoE Audio folder
 ```bash
-git clone 
+git clone https://github.com/HITsz-TMG/Uni-MoE/tree/master/Uni_MoE_TTS
 cd Uni_MoE_TTS 
 ```
 
