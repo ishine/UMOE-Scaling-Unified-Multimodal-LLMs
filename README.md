@@ -13,6 +13,11 @@ Uni-MoE is a MoE-based omnimodal large model and can understand and generate omn
 [![Demo](https://img.shields.io/badge/Demo-UniMoE-orange)](https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs/tree/master?tab=readme-ov-file#-demo-video) 
 [![Paper](https://img.shields.io/badge/Arxiv-UniMoE-yellow)](https://arxiv.org/abs/2405.11273)
 
+[![🤗Hugging Face](https://img.shields.io/badge/🤗Hugging_Face-UniMoE2.0-yellow)](https://huggingface.co/collections/HIT-TMG/lychee-uni-moe-20)
+[![Project Page](https://img.shields.io/badge/Project_Page-UniMoE2.0-blue)](https://idealistxy.github.io/Uni-MoE-v2.github.io/)
+[![Demo](https://img.shields.io/badge/Demo-UniMoE2.0-orange)](https://github.com/HITsz-TMG/Uni-MoE) 
+[![Paper](https://img.shields.io/badge/Arxiv-UniMoE2.0-yellow)](https://arxiv.org/abs/2405.11273)
+
 [![](https://trendshift.io/api/badge/repositories/10407)](https://trendshift.io/repositories/10407)
 
 </h4>
