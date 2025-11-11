@@ -6,7 +6,7 @@
 
 🚀 Welcome to the repo of **Uni-MOE**
 
-Uni-MoE is a MoE-based unified multimodal model and can understand and generate omnimodalities.
+Uni-MoE is a MoE-based omnimodal large model and can understand and generate omnimodalities.
 
 [![🤗Hugging Face](https://img.shields.io/badge/🤗Hugging_Face-UniMoE-yellow)](https://huggingface.co/Uni-MoE)
 [![Project Page](https://img.shields.io/badge/Project_Page-UniMoE-blue)](https://uni-moe.github.io/)
