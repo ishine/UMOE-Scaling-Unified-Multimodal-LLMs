@@ -28,6 +28,8 @@ Uni-MoE is a MoE-based omnimodal large model and can understand and generate omn
 
 ## 🔥 News
 
+- [2025/11/13] 🔥 We release the second version of [Uni-MoE 2.0](https://github.com/HITsz-TMG/Uni-MoE/tree/master/Uni-MoE-2), which can generate image, text, and speech.
+
 - [2025/10/16] 🔥 We release a better [UniMoE-Audio](https://github.com/HITsz-TMG/Uni-MoE/tree/master/UniMoE-Audio), the first audio generation model with a unified speech and music generation.
 
 - [2025/8/6] 🔥 We release a better Uni-MoE v1.5 at modelscope [here](https://www.modelscope.cn/models/victorjsyy/Uni-MoE) with a unified speech encoding approach.
@@ -72,6 +74,19 @@ https://private-user-images.githubusercontent.com/45393746/331798343-fcd3eb7e-3d
 
 
 ## 🌟 Model Structure
+
+
+### 🚀 Uni-MoE 2.0
+
+We present Uni-MoE 2.0 from the Lychee family. As a fully open-source omnimodal large model (OLM), it substantially advances the capabilities of Lychee's Uni-MoE series in language-centric multimodal understanding, reasoning, and generating. Based on the Qwen2.5-7B dense architecture, we train \modelname~from scratch through three core contributions: dynamic-capacity Mixture-of-Experts (MoE) design, a progressive training strategy enhanced with an iterative reinforcement strategy, and a carefully curated multimodal data matching technique. Uni-MoE 2.0 is capable of cross- and tri-modality understanding, as well as generating images, text, and speech.
+Architecturally, our new MoE framework balances computational efficiency and capability for 10 cross-modal inputs using shared, routed, and null experts, while our Omni-Modality 3D RoPE ensures spatio-temporal cross-modality alignment in the self-attention layer.
+For training, following cross-modal pretraining, we use a progressive supervised fine-tuning strategy that activates modality-specific experts and is enhanced by balanced data composition and an iterative GSPO-DPO method to stabilize RL training and improve reasoning.
+Data-wise, the base model, trained on approximately 75B tokens of open-source multimodal data, is equipped with special speech and image generation tokens, allowing it to learn these generative tasks by conditioning its outputs on linguistic cues.
+
+
+<div align=center><img src="https://github.com/HITsz-TMG/Uni-MoE/blob/master/Uni-MoE-2/assets/img/AudioLLM_model-MoE.png" height="100%" width="75%"/></div>
+
+
 
 ### 🚀 UniMoE-Audio
 
