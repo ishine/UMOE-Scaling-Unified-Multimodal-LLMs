@@ -128,10 +128,8 @@ print(text)
 ```
 
 ## Citation
-
-```
 Please cite the repo if you use the model or code in this repo.
-
+```
 @misc{li2024unimoe,
     title={Uni-MoE: Scaling Unified Multimodal LLMs with Mixture of Experts}, 
     author={Yunxin Li and Shenyuan Jiang and Baotian Hu and Longyue Wang and Wanqi Zhong and Wenhan Luo and Lin Ma and Min Zhang},
