@@ -58,7 +58,7 @@ We have released the weights of five versions of Uni-MoE 2.0 on Hugging Face, as
 | [ Uni-MoE 2.0-TTS](https://huggingface.co/HIT-TMG/Uni-MoE-TTS) | Speech Generation|
 
 ## Cookbooks
-We are releasing cookbooks () for various capabilities, including multi-image understanding, omni video understanding, audio generation, image editing, and more. Stay tuned!
+We are releasing [cookbooks](https://github.com/HITsz-TMG/Uni-MoE/tree/master/Uni-MoE-2/examples) for various capabilities, including multi-image understanding, omni video understanding, audio generation, image editing, and more. Stay tuned!
 
 | Cookbook | Description |
 | -------- | ----------- |
