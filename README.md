@@ -1,6 +1,6 @@
 
 <p align="center">
-    <img src="https://s21.ax1x.com/2024/05/14/pkmtDSS.png" width="250" style="margin-bottom: 0.2;"/>
+    <img src="https://github.com/HITsz-TMG/Uni-MoE/blob/master/assets/uni_moe_logo.png" width="250" style="margin-bottom: 0.2;"/>
 <p>
 <h4 align="center">
 
