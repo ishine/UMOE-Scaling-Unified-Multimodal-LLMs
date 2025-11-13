@@ -79,8 +79,6 @@ https://private-user-images.githubusercontent.com/45393746/331798343-fcd3eb7e-3d
 ### 🚀 Uni-MoE 2.0
 
 We present Uni-MoE 2.0 from the Lychee family. As a fully open-source omnimodal large model (OLM), it substantially advances the capabilities of Lychee's Uni-MoE series in language-centric multimodal understanding, reasoning, and generating. Based on the Qwen2.5-7B dense architecture, we train Uni-MoE 2.0 from scratch through three core contributions: dynamic-capacity Mixture-of-Experts (MoE) design, a progressive training strategy enhanced with an iterative reinforcement strategy, and a carefully curated multimodal data matching technique. Uni-MoE 2.0 is capable of cross- and tri-modality understanding, as well as generating images, text, and speech.
-Architecturally, our new MoE framework balances computational efficiency and capability for 10 cross-modal inputs using shared, routed, and null experts, while our Omni-Modality 3D RoPE ensures spatio-temporal cross-modality alignment in the self-attention layer.
-For training, following cross-modal pretraining, we use a progressive supervised fine-tuning strategy that activates modality-specific experts and is enhanced by balanced data composition and an iterative GSPO-DPO method to stabilize RL training and improve reasoning.
 
 <div align=center><img src="https://github.com/HITsz-TMG/Uni-MoE/blob/master/Uni-MoE-2/assets/images/architecture.png" height="100%" width="75%"/></div>
 
