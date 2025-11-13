@@ -85,8 +85,6 @@ processor = Qwen2VLProcessor.from_pretrained("HIT-TMG/Uni-MoE-2.0-Omni")
 model = GrinQwen2VLOutForConditionalGeneration.from_pretrained("HIT-TMG/Uni-MoE-2.0-Omni", torch_dtype=torch.bfloat16).cuda()
 
 processor.data_args = model.config
-processor.image_processor = model.vision_tower.image_processor
-processor.audio_processor = model.audio_tower.audio_processor
 
 messages = [{
     "role": "user", 
