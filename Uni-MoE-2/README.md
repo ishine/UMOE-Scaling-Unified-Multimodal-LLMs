@@ -17,8 +17,6 @@
 
 
 
-
-
 ## Architecture
 
 <img src="assets/images/architecture.png" alt="Architecture of Uni-MoE-2.0" style="max-width: 100%; width: 1000px; height: auto; display: block; margin: 0 auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(123, 179, 255, 0.15);" align="center">
@@ -26,7 +24,7 @@
 <strong>Fig. 1</strong> The Uni-MoE 2.0 architecture processes multimodal data through a unified tokenization strategy. Audio is tokenized in 30-second clips, augmented with generation tokens for voice control in the context-aware MoE-TTS module, while images are encoded using a sliding window technique. Image Generation Tokens bridge the model to a task-aware diffusion transformer for end-to-end generation tasks. The model's comprehension is powered by Omni-Modality 3D RoPE, which aligns inputs across time, and a sophisticated MoE layer. This MoE layer dynamically routes information using diverse experts, with stability ensured by null experts (for token skipping) and modality-specific routed experts (A, V, T indicate audio, visual, and textual expert pretrained on corresponding data). In contrast, compact shared experts (only 1/8 size of routed experts) enable efficient cross-modal knowledge transfer.
 </div>
 
-## Results
+## Experimental Results
 <img src="assets/images/results.png" alt="Main Results of Uni-MoE 2.0" style="max-width: 100%; width: 1000px; height: auto; display: block; margin: 0 auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(123, 179, 255, 0.15);" align="center">
 <div align="center">
 <strong>Fig. 2</strong> The performance of Uni-MoE 2.0 and previous SOTA omnimodal large models.
@@ -53,14 +51,14 @@ pip install clip==1.0@git+https://github.com/openai/CLIP.git@dcba3cb2e2827b402d2
 We have released the weights of five versions of Uni-MoE 2.0 on Hugging Face, as shown in below tables.
 | Model | Capalicity|
 | --------  | -----------|
-| [ Uni-MoE 2.0-Omni](https://huggingface.co/HIT-TMG/Uni-MoE-2.0-Omni) | All-Modality Understanding, Speech Generation, Image Generation and More| 
+| [ Uni-MoE 2.0-Omni](https://huggingface.co/HIT-TMG/Uni-MoE-2.0-Omni) | All-modality understanding, speech generation, image generation, image editing, and low-level image processing | 
 | [ Uni-MoE 2.0-Base](https://huggingface.co/HIT-TMG/Uni-MoE-2.0-Base) | All-Modality Understanding| 
-| [ Uni-MoE 2.0-Thinking](https://huggingface.co/HIT-TMG/Uni-MoE-2.0-Thinking) | Omni Long-form Reasoning Capabilities. |
-| [ Uni-MoE 2.0-Image](https://huggingface.co/HIT-TMG/Uni-MoE-2.0-Image) | Powerful Image Generation, Image Editting, Low-Level Abality|
+| [ Uni-MoE 2.0-Thinking](https://huggingface.co/HIT-TMG/Uni-MoE-2.0-Thinking) | Comprehensive long-form omnimodal reasoning capabilities |
+| [ Uni-MoE 2.0-Image](https://huggingface.co/HIT-TMG/Uni-MoE-2.0-Image) | High-performance image generation, image editing, and low-level image processing |
 | [ Uni-MoE 2.0-TTS](https://huggingface.co/HIT-TMG/Uni-MoE-TTS) | Speech Generation|
 
 ## Cookbooks
-We are preparing [cookbooks]() for many capabilities, including multi-images understanding, omni video understanding, audio generation, image editting and more. Welcome to learn more!
+We are releasing cookbooks () for various capabilities, including multi-image understanding, omni video understanding, audio generation, image editing, and more. Stay tuned!
 
 | Cookbook | Description |
 | -------- | ----------- |
