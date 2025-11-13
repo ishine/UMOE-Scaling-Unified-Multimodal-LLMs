@@ -62,11 +62,11 @@ We are releasing cookbooks () for various capabilities, including multi-image un
 
 | Cookbook | Description |
 | -------- | ----------- |
-| [Image Understanding](Uni-MoE-2/examples/cookbook_image.py) | Image Understanding, Multi-Images Understanding |
-| [Video Understanding](Uni-MoE-2/examples/cookbook_video.py) | Video Understanding, Omni Video Understanding |
-| [Audio Tasks](Uni-MoE-2/examples/cookbook_audio.py) | Audio Understanding, ASR, TTS, Long ASR/TTS, Speech Chat, Vision+Speech Chat |
-| [Visual Generation](Uni-MoE-2/examples/cookbook_visual_gen.py) | Image Generation, Image Editing, Controllable Image Generation, Low-level Image Restoration |
-| [Visual Reasoning](Uni-MoE-2/examples/cookbook_thinking.py) | Long-CoT Visual Reasoning |
+| [Image Understanding](examples/cookbook_image.py) | Image Understanding, Multi-Images Understanding |
+| [Video Understanding](examples/cookbook_video.py) | Video Understanding, Omni Video Understanding |
+| [Audio Tasks](examples/cookbook_audio.py) | Audio Understanding, ASR, TTS, Long ASR/TTS, Speech Chat, Vision+Speech Chat |
+| [Visual Generation](examples/cookbook_visual_gen.py) | Image Generation, Image Editing, Controllable Image Generation, Low-level Image Restoration |
+| [Visual Reasoning](examples/cookbook_thinking.py) | Long-CoT Visual Reasoning |
 
 
 ## Example Usage
