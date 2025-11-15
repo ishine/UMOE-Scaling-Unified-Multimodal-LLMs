@@ -1,4 +1,4 @@
-<h1 align="center">Uni-MoE 2.0: Scaling Language-Centric Omnimodal Large Model with Advanced MoE, Training and Data</h1>
+<h1 align="center">Uni-MoE-2.0-Omni: Scaling Language-Centric Omnimodal Large Model with Advanced MoE, Training and Data</h1>
 
 <div align="center" style="display: flex; justify-content: center; margin-top: 10px;">
   <a href="https://idealistxy.github.io/Uni-MoE-v2.github.io/"><img src="https://img.shields.io/badge/📰 -Website-228B22" style="margin-right: 5px;"></a>
@@ -8,10 +8,10 @@
 
 
 <p>
-    <strong>Uni-MoE 2.0</strong> is a significant evolution of our original Uni-MoE 1.0 model. The previous version explored the use of Mixture of Experts (MoE) for unified multimodal language modeling, demonstrating its effectiveness across diverse modalities such as text, audio, speech, images, and video.
+    <strong>Uni-MoE-2.0-Omni</strong> is a significant evolution of our original Uni-MoE 1.0 model. The previous version explored the use of Mixture of Experts (MoE) for unified multimodal language modeling, demonstrating its effectiveness across diverse modalities such as text, audio, speech, images, and video.
 </p>
 <p>
-    Uni-MoE 2.0 builds on this foundation, rebuilt from scratch on the more powerful Qwen2.5-7B core, and introduces key architectural and training paradigms. Major improvements include a unified speech encoder, context-aware MoE-TTS, deep cross-modal alignment via 3D RoPE, and advanced MoE fusion strategies with a refined training recipe.
+    Uni-MoE-2.0-Omni builds on this foundation, rebuilt from scratch on the more powerful Qwen2.5-7B core, and introduces key architectural and training paradigms. Major improvements include a unified speech encoder, context-aware MoE-TTS, deep cross-modal alignment via 3D RoPE, and advanced MoE fusion strategies with a refined training recipe.
 </p>
 
 
@@ -21,7 +21,7 @@
 
 <img src="assets/images/architecture.png" alt="Architecture of Uni-MoE-2.0" style="max-width: 100%; width: 1000px; height: auto; display: block; margin: 0 auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(123, 179, 255, 0.15);" align="center">
 <div align="center">
-<strong>Fig. 1</strong> The Uni-MoE 2.0 architecture processes multimodal data through a unified tokenization strategy. Audio is tokenized in 30-second clips, augmented with generation tokens for voice control in the context-aware MoE-TTS module, while images are encoded using a sliding window technique. Image Generation Tokens bridge the model to a task-aware diffusion transformer for end-to-end generation tasks. The model's comprehension is powered by Omni-Modality 3D RoPE, which aligns inputs across time, and a sophisticated MoE layer. This MoE layer dynamically routes information using diverse experts, with stability ensured by null experts (for token skipping) and modality-specific routed experts (A, V, T indicate audio, visual, and textual expert pretrained on corresponding data). In contrast, compact shared experts (only 1/8 size of routed experts) enable efficient cross-modal knowledge transfer.
+<strong>Fig. 1</strong> The Uni-MoE-2.0-Omni architecture processes multimodal data through a unified tokenization strategy. Audio is tokenized in 30-second clips, augmented with generation tokens for voice control in the context-aware MoE-TTS module, while images are encoded using a sliding window technique. Image Generation Tokens bridge the model to a task-aware diffusion transformer for end-to-end generation tasks. The model's comprehension is powered by Omni-Modality 3D RoPE, which aligns inputs across time, and a sophisticated MoE layer. This MoE layer dynamically routes information using diverse experts, with stability ensured by null experts (for token skipping) and modality-specific routed experts (A, V, T indicate audio, visual, and textual expert pretrained on corresponding data). In contrast, compact shared experts (only 1/8 size of routed experts) enable efficient cross-modal knowledge transfer.
 </div>
 
 ## Experimental Results
