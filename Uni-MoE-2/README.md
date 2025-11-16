@@ -26,10 +26,9 @@
 
 ## Model Introduction
 
-<div align="center">
-    <video src="https://github.com/HITsz-TMG/Uni-MoE/blob/master/Uni-MoE-2/assets/videos/models_intro.mp4" width="100%" style="margin: 0; padding: 0;" controls>
-    </video>
-</div>
+<div align="center"> <video src="https://raw.githubusercontent.com/HITsz-TMG/Uni-MoE/master/Uni-MoE-2/assets/videos/models_intro.mp4" width="100%" controls style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" > 您的浏览器不支持 HTML5 视频播放。 </video> </div>
+
+
 
 ## Experimental Results
 <img src="assets/images/results.png" alt="Main Results of Uni-MoE 2.0" style="max-width: 100%; width: 1000px; height: auto; display: block; margin: 0 auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(123, 179, 255, 0.15);" align="center">
