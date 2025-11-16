@@ -45,6 +45,10 @@ Uni-MoE is a MoE-based omnimodal large model and can understand and generate omn
 
 ## 📀 Demo Video
 
+### 👀 Uni-MoE-2.0-Omni
+
+https://github.com/user-attachments/assets/5e5ca44b-a39f-49bf-afca-78c73b7657ed
+
 ### 👀 UniMoE-Audio
 
 
