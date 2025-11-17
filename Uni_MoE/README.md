@@ -16,6 +16,12 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
 
 <div align=center><img src="https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs/blob/master/Uni_MoE/model.png" height="100%" width="75%"/></div>
 
+## 🎨 Case Show
+
+
+<div align=center><img src="https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs/blob/master/Uni_MoE/case_figure.png" height="100%" width="75%"/></div>
+
+
 ## ⚡️ Install
 
 The following instructions are for Linux installation.
