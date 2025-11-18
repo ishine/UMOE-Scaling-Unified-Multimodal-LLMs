@@ -223,8 +223,6 @@ def find_moe_all_linear(model):
         if any(e_keyword in name for e_keyword in experts_keywords): # only MoE layers
             if isinstance(module, cls):
                 lora_module_names.add(name)
-                # names = name.split('.')
-                # lora_module_names.add(names[0] if len(names) == 1 else names[-1])
 
     return list(lora_module_names)
 
@@ -242,11 +240,16 @@ def main():
     
     os.makedirs(args.save_path, exist_ok=True)
     for filename in os.listdir(args.model_path):
+        if "model" in filename:
+            continue
         filepath = os.path.join(args.model_path, filename)
         if os.path.isfile(filepath):
             shutil.copy(filepath, args.save_path)
         elif os.path.isdir(filepath):
-            shutil.copytree(filepath, os.path.join(args.save_path, filename))
+            save_dir = os.path.join(args.save_path, filename)
+            if os.path.exists(save_dir):
+                shutil.rmtree(save_dir)
+            shutil.copytree(filepath, save_dir)
             
     
     if lora_enable:
@@ -284,3 +287,5 @@ def main():
         save_model_sharded(prams_dict, args.save_path)
 
 
+if __name__ == "__main__":
+    main()

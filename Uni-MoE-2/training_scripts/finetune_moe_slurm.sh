@@ -15,7 +15,7 @@ module load CUDA/12.4
 module load ffmpeg/6.1-gcc-11.4.0
 module load nccl/2.23.4-cuda-12.4
 
-LOG_DIR=/HOME/hitsz_hubaotian/hitsz_hubaotian_1/logs/uni_moe_v2
+LOG_DIR=path_to_your_log_directory
 mkdir -p "$LOG_DIR"
 
 # 进入项目目录
