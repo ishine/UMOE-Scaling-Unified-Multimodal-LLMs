@@ -16,7 +16,7 @@ Uni-MoE is a MoE-based omnimodal large model and can understand and generate omn
 [![🤗Hugging Face](https://img.shields.io/badge/🤗Hugging_Face-UniMoE2.0-yellow)](https://huggingface.co/collections/HIT-TMG/lychee-uni-moe-20)
 [![Project Page](https://img.shields.io/badge/Project_Page-UniMoE2.0-blue)](https://idealistxy.github.io/Uni-MoE-v2.github.io/)
 [![Demo](https://img.shields.io/badge/Demo-UniMoE2.0-orange)](https://github.com/HITsz-TMG/Uni-MoE) 
-[![Paper](https://img.shields.io/badge/Arxiv-UniMoE2.0-yellow)](https://arxiv.org/abs/2405.11273)
+[![Paper](https://img.shields.io/badge/Arxiv-UniMoE2.0-yellow)](https://arxiv.org/abs/2511.12609)
 
 [![](https://trendshift.io/api/badge/repositories/10407)](https://trendshift.io/repositories/10407)
 
@@ -66,13 +66,6 @@ https://private-user-images.githubusercontent.com/45393746/331798338-dfc848a2-1f
 https://private-user-images.githubusercontent.com/45393746/331798343-fcd3eb7e-3dfa-4470-a2e6-b9b140efe0fa.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTYwMzUyNTEsIm5iZiI6MTcxNjAzNDk1MSwicGF0aCI6Ii80NTM5Mzc0Ni8zMzE3OTgzNDMtZmNkM2ViN2UtM2RmYS00NDcwLWEyZTYtYjliMTQwZWZlMGZhLm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MTglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTE4VDEyMjIzMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTIyNWU5OTM0NjM1MTgzMWIxNWI4MDllYzU5NWNlOTUxMGI1NzQ5MzkyNmRlNDFlMTY0YzYzMTJmZjk4ZjJmMWEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.Uz3PBfKbEjl5ZOfUSXrAaQQLrvKwCFK2uNPTjtKG3dU
 
 
-## 🎨 Case Show
-
-### Uni-MoE 1.0
-
-<div align=center><img src="https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs/blob/master/Uni_MoE/case_figure.png" height="100%" width="75%"/></div>
-
-
 ## 🌟 Model Structure
 
 
@@ -104,6 +97,19 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
 ## ❤️ Citation
 
 If you find Uni-MoE useful for your research and applications, please cite using this BibTeX:
+
+```bibtex
+
+@ARTICLE{li_unimoe2omni,
+  author={Li, Yunxin and Chen Xinyu and Jiang, Shenyuan and Shi, Haoyuan and Liu, Zhenyu and Zhang, Xuanyu and Deng, Nanhao and Xu, Zhenran and Ma, Yicheng and Zhang, Meishan and Hu, Baotian and Zhang, Min},
+  journal={arXiv preprint arXiv:2511.12609}, 
+  title={Uni-MoE-2.0-Omni: Scaling Language-Centric Omnimodal Large Model with Advanced MoE, Training and Data}, 
+  year={2025},
+ }
+
+```
+
+
 ```bibtex
 
 @ARTICLE{li_unimoe,

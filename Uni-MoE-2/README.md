@@ -2,7 +2,7 @@
 
 <div align="center" style="display: flex; justify-content: center; margin-top: 10px;">
   <a href="https://idealistxy.github.io/Uni-MoE-v2.github.io/"><img src="https://img.shields.io/badge/📰 -Website-228B22" style="margin-right: 5px;"></a>
-  <a href="https://arxiv.org/abs/2405.11273"><img src="https://img.shields.io/badge/📄-Paper-8A2BE2" style="margin-right: 5px;"></a>
+  <a href="https://arxiv.org/abs/2511.12609"><img src="https://img.shields.io/badge/📄-Paper-8A2BE2" style="margin-right: 5px;"></a>
   <a href="https://huggingface.co/collections/HIT-TMG/lychee-uni-moe-20"><img src="https://img.shields.io/badge/🤗-Checkpoints-ED5A22.svg" style="margin-right: 5px;"></a>
 </div>
 
@@ -157,12 +157,13 @@ python training_scripts/model_merge.py --model_path path_to_origin_model --ckpt_
 ## Citation
 Please cite the repo if you use the model or code in this repo.
 ```
-@misc{li2024unimoe,
-    title={Uni-MoE: Scaling Unified Multimodal LLMs with Mixture of Experts}, 
-    author={Yunxin Li and Shenyuan Jiang and Baotian Hu and Longyue Wang and Wanqi Zhong and Wenhan Luo and Lin Ma and Min Zhang},
-    year={2024},
-    eprint={2405.11273},
-    archivePrefix={arXiv},
-    primaryClass={cs.AI}
-}
+
+@ARTICLE{li_unimoe2omni,
+  author={Li, Yunxin and Chen Xinyu and Jiang, Shenyuan and Shi, Haoyuan and Liu, Zhenyu and Zhang, Xuanyu and Deng, Nanhao and Xu, Zhenran and Ma, Yicheng and Zhang, Meishan and Hu, Baotian and Zhang, Min},
+  journal={arXiv preprint arXiv:2511.12609}, 
+  title={Uni-MoE-2.0-Omni: Scaling Language-Centric Omnimodal Large Model with Advanced MoE, Training and Data}, 
+  year={2025},
+ }
+
+
 ```
