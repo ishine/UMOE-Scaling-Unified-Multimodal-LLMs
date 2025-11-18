@@ -2,7 +2,7 @@
 
 <div align="center" style="display: flex; justify-content: center; margin-top: 10px;">
   <a href="https://idealistxy.github.io/Uni-MoE-v2.github.io/"><img src="https://img.shields.io/badge/📰 -Website-228B22" style="margin-right: 5px;"></a>
-  <a href="https://arxiv.org/abs/2405.11273"><img src="https://img.shields.io/badge/📄-Paper-8A2BE2" style="margin-right: 5px;"></a>
+  <a href="https://arxiv.org/abs/2511.12609"><img src="https://img.shields.io/badge/📄-Paper-8A2BE2" style="margin-right: 5px;"></a>
   <a href="https://huggingface.co/collections/HIT-TMG/lychee-uni-moe-20"><img src="https://img.shields.io/badge/🤗-Checkpoints-ED5A22.svg" style="margin-right: 5px;"></a>
 </div>
 
