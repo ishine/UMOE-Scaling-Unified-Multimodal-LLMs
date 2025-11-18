@@ -132,13 +132,13 @@ print(text)
 ## Citation
 Please cite the repo if you use the model or code in this repo.
 ```
-@misc{li2024unimoe,
-    title={Uni-MoE: Scaling Unified Multimodal LLMs with Mixture of Experts}, 
-    author={Yunxin Li and Shenyuan Jiang and Baotian Hu and Longyue Wang and Wanqi Zhong and Wenhan Luo and Lin Ma and Min Zhang},
-    year={2024},
-    eprint={2405.11273},
-    archivePrefix={arXiv},
-    primaryClass={cs.AI}
-}
+
+@ARTICLE{li_unimoe2omni,
+  author={Li, Yunxin and Chen Xinyu and Jiang, Shenyuan and Shi, Haoyuan and Liu, Zhenyu and Zhang, Xuanyu and Deng, Nanhao and Xu, Zhenran and Ma, Yicheng and Zhang, Meishan and Hu, Baotian and Zhang, Min},
+  journal={arXiv preprint arXiv:2511.12609}, 
+  title={Uni-MoE-2.0-Omni: Scaling Language-Centric Omnimodal Large Model with Advanced MoE, Training and Data}, 
+  year={2025},
+ }
+
 
 ```
