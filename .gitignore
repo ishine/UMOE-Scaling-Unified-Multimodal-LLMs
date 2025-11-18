@@ -42,3 +42,5 @@ fastlane/test_output/
 *.ipa
 *.dSYM.zip
 *.dSYM
+
+.vscode/

@@ -129,6 +129,31 @@ print(text)
 
 ```
 
+## Training
+We provide two scripts for fine-tuning Uni-MoE 2.0: LoRA and Full Fine-Tuning.
+We strongly recommend using LoRA for fine-tuning, as it allows single-GPU fine-tuning without using expert parallelism.
+For Full fine-tuning, with zero2 and using four expert parallelism, our tests indicate that at least four nodes with 32 × 80GB GPUs are required to training.
+
+```shell
+# LoRA FineTuning
+bash training_scripts/finetune_moe_lora.sh
+
+# Full FineTuning (multi-nodes on Slurm clusters)
+sbatch training_scripts/finetune_moe_slurm.sh
+```
+
+For the training data, we support both JSON and Parquet formats. We have provided [example](demo_100.json) in JSON format.
+
+
+After training is complete, you need to use the following code to merge the LoRA weights / Expert Parallel weights.
+
+
+```shell
+python training_scripts/model_merge.py --model_path path_to_origin_model --ckpt_path path_to_your_ckpt --lora_enable True/False --save_path path_to_save
+```
+
+
+
 ## Citation
 Please cite the repo if you use the model or code in this repo.
 ```
@@ -140,5 +165,4 @@ Please cite the repo if you use the model or code in this repo.
     archivePrefix={arXiv},
     primaryClass={cs.AI}
 }
-
 ```
