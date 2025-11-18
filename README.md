@@ -97,6 +97,19 @@ The model architecture of Uni-MoE is shown below. Three training stages contain:
 ## ❤️ Citation
 
 If you find Uni-MoE useful for your research and applications, please cite using this BibTeX:
+
+```bibtex
+
+@ARTICLE{li_unimoe2omni,
+  author={Li, Yunxin and Chen Xinyu and Jiang, Shenyuan and Shi, Haoyuan and Liu, Zhenyu and Zhang, Xuanyu and Deng, Nanhao and Xu, Zhenran and Ma, Yicheng and Zhang, Meishan and Hu, Baotian and Zhang, Min},
+  journal={arXiv preprint arXiv:2511.12609}, 
+  title={Uni-MoE-2.0-Omni: Scaling Language-Centric Omnimodal Large Model with Advanced MoE, Training and Data}, 
+  year={2025},
+ }
+
+```
+
+
 ```bibtex
 
 @ARTICLE{li_unimoe,
