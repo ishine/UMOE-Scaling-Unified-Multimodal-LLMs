@@ -46,7 +46,7 @@ cat hostfile
 deepspeed --num_gpus 8 --num_nodes $SLURM_NNODES --hostfile hostfile \
     --master_addr $MASTER_ADDR --master_port $MASTER_PORT \
     uni_moe/train/train.py \
-    --deepspeed ./scripts/zero2.json \
+    --deepspeed training_scripts/zero2.json \
     --model_name_or_path HIT-TMG/Uni-MoE-2.0-Omni \
     --data_path demo_100.json \
     --ep_size 1 \
