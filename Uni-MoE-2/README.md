@@ -129,6 +129,44 @@ print(text)
 
 ```
 
+## Evaluation
+
+We recommend using our modified version of **[lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval/tree/main)** to evaluate the model across various benchmarks.
+
+### Installation
+
+First, install the customized `lmms-eval` included in this repository:
+
+```shell
+cd evaluation/lmms-eval
+pip install -e ".[all]"
+```
+
+### Usage
+
+Before running evaluations, make sure to configure your **HF token**, as required by `lmms-eval`.
+
+For **video-related tasks**, you can set `use_audio_in_video=True` in `model_args` to include audio information as part of the model input.
+
+To evaluate the **thinking-enabled version** of the model, set `think_mode=True`  in `model_args` to ensure reasoning mode is correctly activated.
+
+Below is an example evaluation script:
+
+```shell
+export HF_HUB_ENABLE_HF_TRANSFER="1"
+export HF_ENDPOINT=https://hf-mirror.com
+export HF_TOKEN="your_hf_token"
+export DECORD_EOF_RETRY_MAX=40960
+
+python -m lmms_eval \
+    --model uni_moe_2_omni \
+    --model_args pretrained=HIT-TMG/Uni-MoE-2.0-Omni \
+    --tasks ai2d \
+    --batch_size 1 \
+    --output_path eval/eval_results \
+    --log_samples
+```
+
 ## SFT Training
 We provide two scripts for fine-tuning Uni-MoE 2.0: LoRA and Full Fine-Tuning.
 We strongly recommend using LoRA for fine-tuning, as it allows single-GPU fine-tuning without using expert parallelism.
